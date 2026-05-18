@@ -1,0 +1,153 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>James's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="è¿”å›žé¦–é¡µ">
+        <span class="brand-mark"></span>
+        <span>James's Portfolio</span>
+      </a>
+      <nav class="main-nav" aria-label="ä¸»å¯¼èˆª">
+        <a href="#works">ä½œå“</a>
+        <a href="#series">ç³»åˆ—</a>
+        <a href="#about">å…³äºŽ</a>
+        <a href="#contact">è”ç³»</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Selected Works</p>
+          <h1>James çš„ä¸ªäººæ’ç”»ä½œå“é›†ã€‚</h1>
+          <p class="hero-text">
+            å±•ç¤ºåŽŸåˆ›æ’ç”»ã€å›¾æ¡ˆè®¾è®¡ä¸Žé€‚åˆå•†ä¸šå»¶å±•çš„è§†è§‰ä½œå“ï¼Œé€‚ç”¨äºŽåŒ…è£…ã€æ–‡åˆ›ã€å“ç‰Œè§†è§‰å’ŒæŽˆæƒåˆä½œã€‚
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#works">æµè§ˆä½œå“</a>
+            <a class="button secondary" href="#contact">åˆä½œè”ç³»</a>
+          </div>
+        </div>
+        <div class="hero-feature" aria-label="ç²¾é€‰ä½œå“é¢„è§ˆ">
+          <button class="feature-card feature-large image-trigger" type="button" data-work-id="blue-stem-bloom">
+            <img src="images/web/art-06.jpg" alt="è“è‰²èŠ±å‰çº¿ç¨¿å›¾æ¡ˆ" />
+          </button>
+          <div class="feature-stack">
+            <button class="feature-card image-trigger" type="button" data-work-id="apricot-garden">
+              <img src="images/web/art-02.jpg" alt="ææ©™è‰²èŠ±å‰å›¾æ¡ˆ" />
+            </button>
+            <div class="feature-card ad-card">
+              <span>AD</span>
+              <p>é¦–é¡µå“ç‰Œå±•ç¤ºä½</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-strip" aria-label="ä½œå“æ¦‚è§ˆ">
+        <div>
+          <strong>23</strong>
+          <span>å½“å‰ä½œå“</span>
+        </div>
+        <div>
+          <strong>7</strong>
+          <span>ä½œå“ç³»åˆ—</span>
+        </div>
+        <div>
+          <strong>Open</strong>
+          <span>å•†ä¸šæŽˆæƒä¸Žåˆä½œ</span>
+        </div>
+      </section>
+
+      <section class="section work-section" id="works">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Gallery</p>
+            <h2>ç²¾é€‰ä½œå“</h2>
+          </div>
+          <button class="text-button" type="button" id="shuffleWorksButton">éšæœºæ¢ä¸€ç»„</button>
+        </div>
+
+        <div class="layout-with-ads">
+          <div class="gallery-grid" id="featuredWorks" aria-live="polite"></div>
+
+          <aside class="side-ads" aria-label="ä¾§è¾¹å¹¿å‘Šä½">
+            <div class="ad-slot ad-tall">
+              <span>AD</span>
+              <strong>ä¾§æ å¹¿å‘Šä½</strong>
+              <p>é€‚åˆç«–ç‰ˆæµ·æŠ¥ã€è¯¾ç¨‹æŽ¨èã€å“ç‰ŒèµžåŠ©æˆ–æŽˆæƒå…¥å£ã€‚</p>
+            </div>
+            <div class="ad-slot">
+              <span>AD</span>
+              <strong>å°å°ºå¯¸æŽ¨å¹¿ä½</strong>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section series-section" id="series">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Series</p>
+            <h2>ä½œå“ç³»åˆ—</h2>
+          </div>
+        </div>
+        <div class="series-grid" id="seriesGrid"></div>
+      </section>
+
+      <section class="section series-detail-section" id="seriesDetail" hidden>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Series Detail</p>
+            <h2 id="seriesDetailTitle">ç³»åˆ—ä½œå“</h2>
+          </div>
+          <div class="detail-actions">
+            <button class="text-button" type="button" id="backToWorksButton">è¿”å›žå…¨éƒ¨ä½œå“</button>
+            <button class="text-button" type="button" id="backToSeriesButton">è¿”å›žç³»åˆ—</button>
+          </div>
+        </div>
+        <div class="gallery-grid series-detail-grid" id="seriesWorks"></div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>å…³äºŽä½œå“</h2>
+        </div>
+        <p>
+          è¿™é‡Œå±•ç¤º James çš„ä¸ªäººè§†è§‰ä½œå“ï¼ŒåŒ…å«èŠ±å‰å›¾æ¡ˆã€æ’ç”»ç»ƒä¹ ä¸Žå¯ç”¨äºŽå•†ä¸šå»¶å±•çš„è®¾è®¡æ–¹å‘ã€‚é¡µé¢ä¿ç•™äº†å……è¶³ç•™ç™½ï¼Œè®©è®¿å®¢æ›´å®¹æ˜“æ¯”è¾ƒä¸åŒä½œå“çš„è‰²è°ƒã€çº¿æ¡å’Œåº”ç”¨æ°”è´¨ã€‚
+        </p>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>å•†ä¸šåˆä½œä¸ŽæŽˆæƒ</h2>
+        </div>
+        <a class="button primary" href="mailto:jamesfei0128@gmail.com">jamesfei0128@gmail.com</a>
+      </section>
+    </main>
+
+    <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" aria-labelledby="lightboxTitle" hidden>
+      <button class="lightbox-backdrop" type="button" aria-label="å…³é—­é¢„è§ˆ"></button>
+      <div class="lightbox-panel">
+        <button class="lightbox-close" type="button" aria-label="å…³é—­é¢„è§ˆ">Ã—</button>
+        <img id="lightboxImage" src="" alt="" />
+        <h2 id="lightboxTitle"></h2>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <span>Â© 2026 James's Portfolio</span>
+      <span>All rights reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
