@@ -22,6 +22,22 @@
 
 原始长文件名图片仍保留在 `images` 文件夹里。
 
+## 部署时必须上传的图片
+
+线上网站现在会读取 `images/web/` 里的轻量图片。部署到 GitHub + Vercel 时，必须确保 GitHub 仓库里也有这些文件，否则页面能打开但图片会显示为空。
+
+请上传：
+
+- `images/web/art-01.jpg` 到 `images/web/art-06.jpg`
+- `images/web/mirror-01.jpg` 到 `images/web/mirror-08.jpg`
+- `images/web/house-01.jpg` 到 `images/web/house-03.jpg`
+- `images/web/forest-01.jpg` 到 `images/web/forest-02.jpg`
+- `images/web/branch-01.jpg` 到 `images/web/branch-04.jpg`
+
+这套网页图片总共约 10.45 MB，比原始 PNG 小很多，更适合 GitHub 上传和 Vercel 部署。
+
+如果线上图片不显示，先打开 GitHub 仓库确认是否存在 `images/web/art-06.jpg`。如果这个文件不存在，说明 `images/web` 文件夹还没有上传到 GitHub。
+
 ## 如何新增作品
 
 1. 把新图片放进 `images` 文件夹。

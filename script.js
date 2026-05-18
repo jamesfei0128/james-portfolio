@@ -1,225 +1,225 @@
-const seriesList = [
+﻿const seriesList = [
   {
     id: "warm-botanicals",
     title: "Warm Botanicals",
-    description: "杏橙、棕红与米色花卉，适合温暖、柔和的品牌视觉。",
+    description: "ææ©™ã€æ£•çº¢ä¸Žç±³è‰²èŠ±å‰ï¼Œé€‚åˆæ¸©æš–ã€æŸ”å’Œçš„å“ç‰Œè§†è§‰ã€‚",
   },
   {
     id: "quiet-neutrals",
     title: "Quiet Neutrals",
-    description: "低对比花卉底纹，适合包装、壁纸和背景延展。",
+    description: "ä½Žå¯¹æ¯”èŠ±å‰åº•çº¹ï¼Œé€‚åˆåŒ…è£…ã€å£çº¸å’ŒèƒŒæ™¯å»¶å±•ã€‚",
   },
   {
     id: "fresh-blue",
     title: "Fresh Blue",
-    description: "清爽蓝色枝干花卉，可用于春夏主题和生活方式产品。",
+    description: "æ¸…çˆ½è“è‰²æžå¹²èŠ±å‰ï¼Œå¯ç”¨äºŽæ˜¥å¤ä¸»é¢˜å’Œç”Ÿæ´»æ–¹å¼äº§å“ã€‚",
   },
   {
     id: "mirror-garden",
     title: "Mirror Garden",
-    description: "镜面、画架与花园光影组合，带有梦境式的空间感。",
+    description: "é•œé¢ã€ç”»æž¶ä¸ŽèŠ±å›­å…‰å½±ç»„åˆï¼Œå¸¦æœ‰æ¢¦å¢ƒå¼çš„ç©ºé—´æ„Ÿã€‚",
   },
   {
     id: "minimal-houses",
     title: "Minimal Houses",
-    description: "极简建筑外观、干净背景与明亮色块。",
+    description: "æžç®€å»ºç­‘å¤–è§‚ã€å¹²å‡€èƒŒæ™¯ä¸Žæ˜Žäº®è‰²å—ã€‚",
   },
   {
     id: "quiet-forest",
     title: "Quiet Forest",
-    description: "孤树、室内光线和克制的自然场景。",
+    description: "å­¤æ ‘ã€å®¤å†…å…‰çº¿å’Œå…‹åˆ¶çš„è‡ªç„¶åœºæ™¯ã€‚",
   },
   {
     id: "branch-composition",
     title: "Branch Composition",
-    description: "枝条、叶片和留白构成的自然装饰作品。",
+    description: "æžæ¡ã€å¶ç‰‡å’Œç•™ç™½æž„æˆçš„è‡ªç„¶è£…é¥°ä½œå“ã€‚",
   },
 ];
 
 const works = [
   {
     id: "soft-petal-repeat",
-    image: "images/art-01.png",
+    image: "images/web/art-01.jpg",
     title: "Soft Petal Repeat",
-    description: "浅米 / 低对比 / 背景纹样",
+    description: "æµ…ç±³ / ä½Žå¯¹æ¯” / èƒŒæ™¯çº¹æ ·",
     series: "quiet-neutrals",
-    alt: "浅米色花卉底纹图案",
+    alt: "æµ…ç±³è‰²èŠ±å‰åº•çº¹å›¾æ¡ˆ",
   },
   {
     id: "apricot-garden",
-    image: "images/art-02.png",
+    image: "images/web/art-02.jpg",
     title: "Apricot Garden",
-    description: "杏橙 / 大花型 / 温暖装饰感",
+    description: "ææ©™ / å¤§èŠ±åž‹ / æ¸©æš–è£…é¥°æ„Ÿ",
     series: "warm-botanicals",
-    alt: "杏橙色花卉重复图案",
+    alt: "ææ©™è‰²èŠ±å‰é‡å¤å›¾æ¡ˆ",
   },
   {
     id: "mist-flower",
-    image: "images/art-03.png",
+    image: "images/web/art-03.jpg",
     title: "Mist Flower",
-    description: "灰绿 / 小花散点 / 安静细节",
+    description: "ç°ç»¿ / å°èŠ±æ•£ç‚¹ / å®‰é™ç»†èŠ‚",
     series: "quiet-neutrals",
-    alt: "灰绿色小花重复图案",
+    alt: "ç°ç»¿è‰²å°èŠ±é‡å¤å›¾æ¡ˆ",
   },
   {
     id: "line-poppy",
-    image: "images/art-04.png",
+    image: "images/web/art-04.jpg",
     title: "Line Poppy",
-    description: "线描 / 纵向枝条 / 自然留白",
+    description: "çº¿æ / çºµå‘æžæ¡ / è‡ªç„¶ç•™ç™½",
     series: "warm-botanicals",
-    alt: "棕色线描花卉图案",
+    alt: "æ£•è‰²çº¿æèŠ±å‰å›¾æ¡ˆ",
   },
   {
     id: "ivory-blossom",
-    image: "images/art-05.png",
+    image: "images/web/art-05.jpg",
     title: "Ivory Blossom",
-    description: "米色 / 低饱和 / 轻柔线稿",
+    description: "ç±³è‰² / ä½Žé¥±å’Œ / è½»æŸ”çº¿ç¨¿",
     series: "quiet-neutrals",
-    alt: "米色花朵线稿图案",
+    alt: "ç±³è‰²èŠ±æœµçº¿ç¨¿å›¾æ¡ˆ",
   },
   {
     id: "blue-stem-bloom",
-    image: "images/art-06.png",
+    image: "images/web/art-06.jpg",
     title: "Blue Stem Bloom",
-    description: "蓝色 / 轻盈枝干 / 清爽背景",
+    description: "è“è‰² / è½»ç›ˆæžå¹² / æ¸…çˆ½èƒŒæ™¯",
     series: "fresh-blue",
-    alt: "蓝色蒲公英花卉图案",
+    alt: "è“è‰²è’²å…¬è‹±èŠ±å‰å›¾æ¡ˆ",
   },
   {
     id: "mirror-garden-01",
-    image: "images/mirror-01.png",
+    image: "images/web/mirror-01.jpg",
     title: "Mirror Garden 01",
-    description: "紫色花园 / 镜面画架 / 梦境光影",
+    description: "ç´«è‰²èŠ±å›­ / é•œé¢ç”»æž¶ / æ¢¦å¢ƒå…‰å½±",
     series: "mirror-garden",
-    alt: "紫色花园中放在画架上的镜面作品",
+    alt: "ç´«è‰²èŠ±å›­ä¸­æ”¾åœ¨ç”»æž¶ä¸Šçš„é•œé¢ä½œå“",
   },
   {
     id: "mirror-garden-02",
-    image: "images/mirror-02.png",
+    image: "images/web/mirror-02.jpg",
     title: "Mirror Garden 02",
-    description: "镜面 / 花丛 / 柔和景深",
+    description: "é•œé¢ / èŠ±ä¸› / æŸ”å’Œæ™¯æ·±",
     series: "mirror-garden",
-    alt: "花丛中的无边框镜子和画架",
+    alt: "èŠ±ä¸›ä¸­çš„æ— è¾¹æ¡†é•œå­å’Œç”»æž¶",
   },
   {
     id: "mirror-garden-03",
-    image: "images/mirror-03.png",
+    image: "images/web/mirror-03.jpg",
     title: "Mirror Garden 03",
-    description: "宽幅场景 / 花园 / 反射构图",
+    description: "å®½å¹…åœºæ™¯ / èŠ±å›­ / åå°„æž„å›¾",
     series: "mirror-garden",
-    alt: "宽幅花园场景里的镜面画架",
+    alt: "å®½å¹…èŠ±å›­åœºæ™¯é‡Œçš„é•œé¢ç”»æž¶",
   },
   {
     id: "mirror-garden-04",
-    image: "images/mirror-04.png",
+    image: "images/web/mirror-04.jpg",
     title: "Mirror Garden 04",
-    description: "静物装置 / 花园氛围 / 浪漫色彩",
+    description: "é™ç‰©è£…ç½® / èŠ±å›­æ°›å›´ / æµªæ¼«è‰²å½©",
     series: "mirror-garden",
-    alt: "花园中镜子与画架的静物装置",
+    alt: "èŠ±å›­ä¸­é•œå­ä¸Žç”»æž¶çš„é™ç‰©è£…ç½®",
   },
   {
     id: "mirror-garden-05",
-    image: "images/mirror-05.png",
+    image: "images/web/mirror-05.jpg",
     title: "Mirror Garden 05",
-    description: "镜像空间 / 植物光斑 / 柔焦背景",
+    description: "é•œåƒç©ºé—´ / æ¤ç‰©å…‰æ–‘ / æŸ”ç„¦èƒŒæ™¯",
     series: "mirror-garden",
-    alt: "植物环绕的镜面画架视觉作品",
+    alt: "æ¤ç‰©çŽ¯ç»•çš„é•œé¢ç”»æž¶è§†è§‰ä½œå“",
   },
   {
     id: "mirror-garden-06",
-    image: "images/mirror-06.png",
+    image: "images/web/mirror-06.jpg",
     title: "Mirror Garden 06",
-    description: "横向花境 / 镜面中心 / 色彩层次",
+    description: "æ¨ªå‘èŠ±å¢ƒ / é•œé¢ä¸­å¿ƒ / è‰²å½©å±‚æ¬¡",
     series: "mirror-garden",
-    alt: "横向花园里摆放着镜面画架",
+    alt: "æ¨ªå‘èŠ±å›­é‡Œæ‘†æ”¾ç€é•œé¢ç”»æž¶",
   },
   {
     id: "mirror-garden-07",
-    image: "images/mirror-07.png",
+    image: "images/web/mirror-07.jpg",
     title: "Mirror Garden 07",
-    description: "花间装置 / 反射 / 紫粉色调",
+    description: "èŠ±é—´è£…ç½® / åå°„ / ç´«ç²‰è‰²è°ƒ",
     series: "mirror-garden",
-    alt: "紫粉花丛中的镜面装置",
+    alt: "ç´«ç²‰èŠ±ä¸›ä¸­çš„é•œé¢è£…ç½®",
   },
   {
     id: "mirror-garden-08",
-    image: "images/mirror-08.png",
+    image: "images/web/mirror-08.jpg",
     title: "Mirror Garden 08",
-    description: "宽幅花园 / 画架 / 幻想氛围",
+    description: "å®½å¹…èŠ±å›­ / ç”»æž¶ / å¹»æƒ³æ°›å›´",
     series: "mirror-garden",
-    alt: "幻想花园中的宽幅镜面画架场景",
+    alt: "å¹»æƒ³èŠ±å›­ä¸­çš„å®½å¹…é•œé¢ç”»æž¶åœºæ™¯",
   },
   {
     id: "minimal-house-01",
-    image: "images/house-01.png",
+    image: "images/web/house-01.jpg",
     title: "Blue Facade",
-    description: "极简建筑 / 蓝色墙面 / 橙色门",
+    description: "æžç®€å»ºç­‘ / è“è‰²å¢™é¢ / æ©™è‰²é—¨",
     series: "minimal-houses",
-    alt: "蓝色极简房屋外观和橙色门",
+    alt: "è“è‰²æžç®€æˆ¿å±‹å¤–è§‚å’Œæ©™è‰²é—¨",
   },
   {
     id: "minimal-house-02",
-    image: "images/house-02.png",
+    image: "images/web/house-02.jpg",
     title: "Vertical House Study",
-    description: "竖幅建筑 / 干净背景 / 明亮几何",
+    description: "ç«–å¹…å»ºç­‘ / å¹²å‡€èƒŒæ™¯ / æ˜Žäº®å‡ ä½•",
     series: "minimal-houses",
-    alt: "竖幅极简房屋外观作品",
+    alt: "ç«–å¹…æžç®€æˆ¿å±‹å¤–è§‚ä½œå“",
   },
   {
     id: "minimal-house-03",
-    image: "images/house-03.png",
+    image: "images/web/house-03.jpg",
     title: "Clean Exterior",
-    description: "宽幅建筑 / 青蓝色块 / 简洁立面",
+    description: "å®½å¹…å»ºç­‘ / é’è“è‰²å— / ç®€æ´ç«‹é¢",
     series: "minimal-houses",
-    alt: "青蓝色极简房屋外立面",
+    alt: "é’è“è‰²æžç®€æˆ¿å±‹å¤–ç«‹é¢",
   },
   {
     id: "quiet-forest-01",
-    image: "images/forest-01.png",
+    image: "images/web/forest-01.jpg",
     title: "Quiet Forest Room",
-    description: "孤树 / 室内光线 / 雾感空间",
+    description: "å­¤æ ‘ / å®¤å†…å…‰çº¿ / é›¾æ„Ÿç©ºé—´",
     series: "quiet-forest",
-    alt: "极简空间中孤树伸向光源",
+    alt: "æžç®€ç©ºé—´ä¸­å­¤æ ‘ä¼¸å‘å…‰æº",
   },
   {
     id: "quiet-forest-02",
-    image: "images/forest-02.png",
+    image: "images/web/forest-02.jpg",
     title: "Lone Branch Light",
-    description: "树枝 / 冷色空间 / 静默氛围",
+    description: "æ ‘æž / å†·è‰²ç©ºé—´ / é™é»˜æ°›å›´",
     series: "quiet-forest",
-    alt: "冷色室内空间中的孤树枝条",
+    alt: "å†·è‰²å®¤å†…ç©ºé—´ä¸­çš„å­¤æ ‘æžæ¡",
   },
   {
     id: "branch-composition-01",
-    image: "images/branch-01.png",
+    image: "images/web/branch-01.jpg",
     title: "White Leaf Branch",
-    description: "白色叶片 / 蓝色背景 / 装饰构图",
+    description: "ç™½è‰²å¶ç‰‡ / è“è‰²èƒŒæ™¯ / è£…é¥°æž„å›¾",
     series: "branch-composition",
-    alt: "蓝色墙面前的白色叶片枝条",
+    alt: "è“è‰²å¢™é¢å‰çš„ç™½è‰²å¶ç‰‡æžæ¡",
   },
   {
     id: "branch-composition-02",
-    image: "images/branch-02.png",
+    image: "images/web/branch-02.jpg",
     title: "Branch Composition 02",
-    description: "宽幅枝条 / 自然留白 / 柔和光线",
+    description: "å®½å¹…æžæ¡ / è‡ªç„¶ç•™ç™½ / æŸ”å’Œå…‰çº¿",
     series: "branch-composition",
-    alt: "宽幅自然枝条与叶片构图",
+    alt: "å®½å¹…è‡ªç„¶æžæ¡ä¸Žå¶ç‰‡æž„å›¾",
   },
   {
     id: "branch-composition-03",
-    image: "images/branch-03.png",
+    image: "images/web/branch-03.jpg",
     title: "Branch Composition 03",
-    description: "单枝 / 轻盈叶片 / 极简背景",
+    description: "å•æž / è½»ç›ˆå¶ç‰‡ / æžç®€èƒŒæ™¯",
     series: "branch-composition",
-    alt: "极简背景中的单枝叶片构图",
+    alt: "æžç®€èƒŒæ™¯ä¸­çš„å•æžå¶ç‰‡æž„å›¾",
   },
   {
     id: "branch-composition-04",
-    image: "images/branch-04.png",
+    image: "images/web/branch-04.jpg",
     title: "Branch Composition 04",
-    description: "植物枝条 / 柔光 / 留白",
+    description: "æ¤ç‰©æžæ¡ / æŸ”å…‰ / ç•™ç™½",
     series: "branch-composition",
-    alt: "自然植物枝条与柔和光影构图",
+    alt: "è‡ªç„¶æ¤ç‰©æžæ¡ä¸ŽæŸ”å’Œå…‰å½±æž„å›¾",
   },
 ];
 
@@ -260,11 +260,11 @@ function createWorkCard(work, options = {}) {
 function createInlineAd() {
   const ad = document.createElement("aside");
   ad.className = "ad-slot ad-inline";
-  ad.setAttribute("aria-label", "广告位");
+  ad.setAttribute("aria-label", "å¹¿å‘Šä½");
   ad.innerHTML = `
     <span>AD</span>
-    <strong>画廊穿插广告位</strong>
-    <p>适合放置品牌图、横幅、展览信息或产品购买入口。</p>
+    <strong>ç”»å»Šç©¿æ’å¹¿å‘Šä½</strong>
+    <p>é€‚åˆæ”¾ç½®å“ç‰Œå›¾ã€æ¨ªå¹…ã€å±•è§ˆä¿¡æ¯æˆ–äº§å“è´­ä¹°å…¥å£ã€‚</p>
   `;
   return ad;
 }
@@ -304,7 +304,7 @@ function renderSeriesWorks(seriesId) {
   const filteredWorks = works.filter((work) => work.series === seriesId);
 
   seriesWorksEl.innerHTML = "";
-  seriesDetailTitleEl.textContent = series ? series.title : "系列作品";
+  seriesDetailTitleEl.textContent = series ? series.title : "ç³»åˆ—ä½œå“";
   filteredWorks.forEach((work, index) => {
     seriesWorksEl.append(createWorkCard(work, { wide: index === 0 && filteredWorks.length > 1 }));
   });
@@ -370,3 +370,4 @@ document.addEventListener("keydown", (event) => {
 
 renderSeriesCards();
 renderFeaturedWorks();
+
